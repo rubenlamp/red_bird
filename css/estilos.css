@@ -4,6 +4,7 @@ body{
 .container {
   display: grid;
   grid-template-columns: 10% 20% 40% 20% 10%;
+  grid-template-rows: 300px 300px;
 }
 .item {
   background: lightblue;

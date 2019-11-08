@@ -3,4 +3,10 @@ body{
 }
 .container {
   display: grid;
+  grid-template-columns: 10% 20% 40% 20% 10%;
+}
+.item {
+  background: lightblue;
+  padding: 10px;
+  border: 1px solid red;
 }

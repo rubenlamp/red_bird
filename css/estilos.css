@@ -7,7 +7,7 @@ body{
   grid-template-rows: 300px 300px; */
   /* grid-template: 100px 200px 300px / 1fr 1fr 1fr;  */
   /* grid-template: 100px 200px 300px / repeat(4, 1fr); */
-  grid-template: repeat(3, 1fr) / repeat(2, 1fr);  
+  grid-template: 100px 1fr 150px / 200px 1fr;  
   grid-gap: 10px;
   height: 100vh;
   grid-template-areas: "header header"
@@ -18,4 +18,16 @@ body{
   background: lightblue;
   padding: 10px;
   border: 1px solid red;
+}
+.header{
+  grid-area: header;
+}
+.left{
+ grid-area: left;
+}
+.content{
+  grid-area: container;
+}
+.footer{
+ grid-area: footer;
 }
